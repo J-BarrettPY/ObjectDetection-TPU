@@ -27,7 +27,7 @@ USB/PCIe/M.2 Accelerator.
     https://www.tensorflow.org/lite/guide/python)). You can check which version is installed
     using the ```pip3 show tflite_runtime``` command.
 
-2.  After downloading the CaliDetect repo, run these commands:
+2.  After downloading the EzDetect repo, run these commands:
 
     ```
     echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list > /dev/null
@@ -36,7 +36,7 @@ USB/PCIe/M.2 Accelerator.
     sudo apt-get update
     sudo apt-get install -y libedgetpu1-max python3-pycoral
     
-    cd Object-Detection/CaliDetect
+    cd Object-Detection/EzDetect
     chmod +x install_requirements.sh
     ./install_requirements.sh
     ```
